@@ -1,0 +1,11 @@
+{
+  "name": "BBQ-splash-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AFPedreros/BBQ-splash-page.git",
+  "author": "AFPedreros <felipe.pedreros94@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}

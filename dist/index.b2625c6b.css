@@ -1,0 +1,107 @@
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;900&display=swap";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #404040;
+  text-align: center;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: 300;
+}
+
+h1 + p {
+  color: #f18119;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 1.3125rem;
+  font-weight: 900;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.3125rem;
+}
+
+h2 + p {
+  color: #f18119;
+  text-transform: uppercase;
+  margin-top: 0;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.top-text {
+  color: #f18119;
+  text-transform: uppercase;
+  order: -1;
+  font-size: .625rem;
+  font-weight: 900;
+}
+
+.fine-print {
+  font-size: .625rem;
+}
+
+strong {
+  font-weight: 900;
+}
+
+.intro {
+  min-height: 50vh;
+  background-color: #404040;
+  background-image: url("dark-ribs.0241c427.jpg");
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: .5em 2em;
+  display: flex;
+}
+
+.main-content {
+  padding: 2em 1em;
+}
+
+.intro > *, .main-content > * {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 500px) {
+  body {
+    height: 100%;
+    font-size: 1.125rem;
+    display: flex;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2, h1 + p {
+    font-size: 1.75rem;
+  }
+
+  .intro, .main-content {
+    width: 50%;
+    min-height: 100vh;
+  }
+
+  .main-content {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=index.b2625c6b.css.map */
