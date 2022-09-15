@@ -98,6 +98,30 @@ strong {
 }
 
 /* =================
+   form
+   ================= */
+
+.email-collector {
+    width: 80%;
+    max-width: 300px;
+}
+
+input {
+    font-family: inherit;
+    font-size: inherit;
+    text-align: inherit;
+    margin-bottom: 0.75em;
+    padding: 0.25em;
+    border: 1px solid #404040;
+    border-radius: 3px;
+}
+
+input,
+.btn {
+    width: 100%;
+}
+
+/* =================
    media queries 
    ================= */
 

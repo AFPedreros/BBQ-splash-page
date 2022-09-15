@@ -79,6 +79,25 @@ strong {
   margin-right: auto;
 }
 
+.email-collector {
+  width: 80%;
+  max-width: 300px;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  text-align: inherit;
+  border: 1px solid #404040;
+  border-radius: 3px;
+  margin-bottom: .75em;
+  padding: .25em;
+}
+
+input, .btn {
+  width: 100%;
+}
+
 @media (min-width: 500px) {
   body {
     height: 100%;
