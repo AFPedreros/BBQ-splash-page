@@ -44,7 +44,11 @@ h2 + p {
 .top-text {
   color: #f18119;
   text-transform: uppercase;
+  border-top: 5px solid #f18119;
+  border-image: linear-gradient(to left, #ff713b, #ffa51d) 1;
   order: -1;
+  margin: 0;
+  padding-top: .25em;
   font-size: .625rem;
   font-weight: 900;
 }
@@ -65,7 +69,7 @@ strong {
   background-size: cover;
   flex-direction: column;
   justify-content: space-between;
-  padding: .5em 0;
+  padding: 0;
   display: flex;
 }
 
@@ -89,13 +93,41 @@ input {
   font-size: inherit;
   text-align: inherit;
   border: 1px solid #404040;
-  border-radius: 3px;
   margin-bottom: .75em;
-  padding: .25em;
+  transition: all .25s;
+  transform: scale(1);
 }
 
 input, .btn {
   width: 100%;
+  border-radius: 5px;
+  padding: .75em 1.5em;
+  font-size: .75rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: none;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.btn-main {
+  color: #fff;
+  background: linear-gradient(to left, #ff713b, #ffa51d);
+  transition: all .25s;
+  transform: scale(1);
+}
+
+.btn-main:hover, .btn-main:focus, input:focus {
+  outline: none;
+  transform: scale(1.05);
+}
+
+.btn-main:hover, .btn-main:focus {
+  color: #000;
 }
 
 @media (min-width: 500px) {
